@@ -1,2 +1,2 @@
 language = "bash"
-run = "python lj_force.py"
+run = "python mean_weight.py"
