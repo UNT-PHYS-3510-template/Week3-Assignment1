@@ -1,7 +1,7 @@
-# Week 2 Assignment 1
+# Week 3 Assignment 1
 
-In the first week, assignment 3, we implemented the formula to compute the Lennard-Jones potential between two Argon atoms. Given the expression of the potential energy as a function of the distance between the atoms, it is possible to compute the magnitude of the force acting on atoms using the relation <a href="https://www.codecogs.com/eqnedit.php?latex=f(r)=-\frac{dU(r)}{dr}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(r)=-\frac{dU(r)}{dr}" title="f(r)=-\frac{dU(r)}{dr}" /></a>. 
+Given a set of values, the mean is defined as their sum divided by the number of values. In the following assignment you are given a list of weights and you should compute the mean value.
 
-TASK: Take the analytic derivative of the LJ potential energy to get the expression for the force. Write a program to compute the force between two Argon atoms, given their distance, using the parameters in Week1 Assignment3.  
+TASK: Use a loop to compute the mean weight from the list of weights reported in the file (there are faster ways, please just use a while or for loop). Print the result with 1 decimal digit.   
 
-EXPECTED OUTCOME: Test your results for three values of the distance. For large distances the force should be small and negative, for short distances the force should be large and positive. For one special distance the force should be equal to zero.  
+EXPECTED OUTCOME: 87.5 kg  
